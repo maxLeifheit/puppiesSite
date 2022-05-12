@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+h2 { 
+	margin: 5px;
+	font-size: 40px;
+}
+
+h3 { 
+	margin: 5px;
+	font-size: 30px;
+}
+
+h4{
+	text-align: center;
+	font-weight: bold;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 5em;
+ }
+
+.mobile{
+	display:none;
+}
+
+@media only screen and (max-width: 400px) {
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 3em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+nav{
+	background-color: lightblue;
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+}
+
+footer a:link, footer a:visited, footer a:hover{
+	color:white;
+}
+
+nav a:link{
+	color:darkblue;
+}
+
+nav a:visited{
+	color:#003333;
+}
+
+nav a:hover{
+	color:#ffffff;
+}
+
+nav a:active{
+	color:#000000;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+nav li{
+	display: inline;
+	padding: 25px;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+footer{
+	color: white;
+	background-color: #4c6d6e;
+	text-align: center;
+	border-top: 1px solid grey;
+	padding: 10px;
+}
+
+a:link{
+	color:purple;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:blue;
+}
+a:active{
+	color:black;
+}
+
+.puppy-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color:white; 
+	text-shadow: 4px 3px 0 #000000;
+}
+
+blockquote{
+	margin: 25px;
+}
+
+.fa{
+	font-size: 5em;
+}
+
